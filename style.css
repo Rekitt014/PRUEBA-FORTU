@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+header p {
+    margin: 0;
+    font-size: 30px;
+    color: black;
+}
+
+header i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.pro-kit, .categories, .varsity-jacket {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pro-kit h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.pro-kit img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.pro-kit h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+
+
+.varsity-jacket img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.varsity-jacket h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
